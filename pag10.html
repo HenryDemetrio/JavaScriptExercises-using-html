@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 10</title>
+</head>
+<body>
+    <h1>Questão 10</h1>
+
+    <script>
+        let x1 = prompt("X do ponto 1");
+        let y1 = prompt("Y do ponto 1 ");
+        let x2 = prompt("X do ponto 2");
+        let y2 = prompt("Y do ponto 2 ");
+
+        document.write("O ponto 1 tem coordenada: (" + x1 + "," + y1 + ")<br> <br>");
+        document.write("O ponto 2 tem coordenada: (" + x2 + "," + y2 + ")<br> <br>");
+
+        let pt1 = ( x1 - x2)
+        let pt2 = ( y1 - y2)
+        
+        if (pt1<0)
+            pt1 = (pt1 * -1);
+
+        if (pt2<0)
+            pt2 = (pt2 * -1);
+
+        let hipotenusa=Math.sqrt(Math.pow(pt1, 2) + Math.pow(pt2, 2));
+
+         document.write("A distância entre os pontos é " + hipotenusa);
+    </script>
+
+   <br> <br> 
+   <a href="index.html">Página 1</a> 
+   <a href="pag2.html">Página 2</a> 
+   <a href="pag3.html">Página 3</a> 
+   <a href="pag4.html">Página 4</a> 
+   <a href="pag5.html">Página 5</a> 
+   <a href="pag6.html">Página 6</a> 
+   <a href="pag7.html">Página 7</a> 
+   <a href="pag8.html">Página 8</a>
+   <a href="pag9.html">Página 9</a> 
+   <a href="pag10.html">Página 10</a>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1> Questão 1</h1>
+    <hr>
+    <script>
+        let n1 = +prompt("Primeira nota do aluno");
+        let n2 = +prompt("Segunda nota do aluno");
+        let n3 = +prompt("Terceira nota do aluno");
+        let resultado = ((n1 + n2 + n3) / 3);
+        document.write("A media da escola é 6. <br>");
+        document.write("A média do aluno foi de " + Math.round(resultado) + " pontos. <br> <br>");
+        if(resultado < 6) { 
+            document.write("O aluno foi reprovado");
+        }
+        else{
+            document.write("O aluno esta aprovado.");
+        }
+
+    </script>
+    <br><br><br>
+  <a href="ex2.html">Questão 2</a>  
+</body>
+</html>

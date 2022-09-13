@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Números primos</title>
+</head>
+<body>
+    <script>
+        let n = +prompt("digite um numero")
+    let primos = []
+    for (let numero1 = 1; numero1 <= n; numero1++) {
+        let contador = 0;
+        for (let numero2 = 1; numero2 <= numero1; numero2++) {
+            if (numero1 % numero2 == 0) {
+                contador++;
+            }
+        }
+        if (contador == 2) {
+            primos.push(numero1);
+        }
+    } document.write(primos);
+    </script>
+</body>
+</html>

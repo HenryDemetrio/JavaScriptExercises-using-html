@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova bhaskara</title>
+</head>
+<h1>PROVA BHASKARA</h1>
+<link rel="stylesheet" href="index.css">
+<HR></HR>
+<body>
+    <script>
+        let a = +prompt("Insira o valor de A");
+        let b = +prompt("Insira o valor de B");
+        let c = +prompt("Insira o valor de C");
+        var delta = b**2-4*a*c;
+        document.write("O valor de delta é " + delta + "<br>");
+        if(delta < 0){
+            document.write("a equação nao possuí raizes poís o delta é negativo ")}
+        else {
+            let x1 = (-b+delta**0.5)/2*a;
+            let x2 = (-b-delta**0.5)/2*a;
+            document.write("X1 é " +  x1.toFixed(2) + " " +  "X2 é " + x2.toFixed(2) )};
+    </script>
+    
+    
+</body>
+</html>
